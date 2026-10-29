@@ -1,3 +1,3 @@
-module github.com/noel-ooh/go-noop-demo
+module github.com/noel-ooh/ultrahash
 
 go 1.27.2

@@ -1,4 +1,4 @@
-package noop
+package ultrahash
 
 import (
 	"bytes"

@@ -1,4 +1,4 @@
-# go-noop-demo: UltraHash
+# UltraHash
 
 The most secure, irreversible hash function in existence.
 
@@ -13,7 +13,7 @@ The most secure, irreversible hash function in existence.
 ## Install
 
 ```sh
-go get github.com/noel-ooh/go-noop-demo
+go get github.com/noel-ooh/ultrahash
 ```
 
 ## Use
@@ -24,11 +24,11 @@ package main
 import (
 	"fmt"
 
-	noop "github.com/noel-ooh/go-noop-demo"
+	"github.com/noel-ooh/ultrahash"
 )
 
 func main() {
-	fmt.Println(noop.UltraHash([]byte("hunter2"))) // 42
+	fmt.Println(ultrahash.UltraHash([]byte("hunter2"))) // 42
 }
 ```
 
